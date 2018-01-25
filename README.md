@@ -87,6 +87,7 @@ I.e mouse appears in virtual space (in data, on computer when VR is
 running) approx. 2cm more forward than on the treadmill (on the
 torus screen). Therefore 0.2 virtual units (i.e. 2 cm) is added to
 all location values.
+
 ** There is an error in trial incrimination in raw data for the
 following experiments: Task 12, Task 13. In these datafiles, trial
 number is incremented when the animal leaves the reward zone instead
@@ -95,12 +96,14 @@ function (maketrialarray) was written to rewrite the trial number
 for each row in the HDF5 datafile. This function was tested
 (Functions_Core_0100_test) and corrects the previous error in trial
 incrimination.
+
 *** Mouse became 1 ill after two training days into final training
 week : was marked with a food deprivation score of 2, so showed mild
 signs of food deprivation. Was fed some food before training but was
 not able to perform in the task as usual. Therefore training days
 after - are not analysed. This is mentioned in the methods of
 Tennant et al, 2018.
+
 **** Only training days till 19 are analysed for both Task 15 and
 15b as task 15b ran for less days.
 """
